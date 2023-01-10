@@ -1,0 +1,2 @@
+﻿#This script will retrieve all of the distribution group members of a single group and export the information to a csv
+Get-DistributionGroupMember -Identity "distrogroupyouwanttoseemembersof@yourcompany.com" | export-csv C:\csv\Distromembers.csv
